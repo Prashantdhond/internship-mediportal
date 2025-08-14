@@ -1,0 +1,40 @@
+[
+  {
+    "id": "1",
+    "doctorId": "1",
+    "patientId": "1",
+    "patientName": "Alice Johnson",
+    "patientEmail": "alice@example.com",
+    "appointmentId": "1",
+    "date": "2025-01-20",
+    "diagnosis": "Hypertension and mild chest pain",
+    "medications": [
+      {
+        "id": "med1",
+        "name": "Amlodipine",
+        "dosage": "5mg",
+        "frequency": "Once daily",
+        "duration": "30 days",
+        "instructions": "Take in the morning with food",
+        "quantity": 30,
+        "unit": "tablets"
+      },
+      {
+        "id": "med2",
+        "name": "Aspirin",
+        "dosage": "81mg",
+        "frequency": "Once daily",
+        "duration": "30 days",
+        "instructions": "Take with water after meals",
+        "quantity": 30,
+        "unit": "tablets"
+      }
+    ],
+    "instructions": "Monitor blood pressure daily. Avoid high-sodium foods. Exercise regularly.",
+    "followUpDate": "2025-02-20",
+    "status": "active",
+    "notes": "Patient shows improvement in blood pressure readings",
+    "createdAt": "2025-01-20T10:00:00Z",
+    "updatedAt": "2025-01-20T10:00:00Z"
+  }
+]
